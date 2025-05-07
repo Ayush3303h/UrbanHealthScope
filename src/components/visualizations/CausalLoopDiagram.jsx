@@ -8,7 +8,7 @@ const CausalLoopDiagram = () => {
   // This is a simplified visual representation of a CLD, not a full interactive diagram
   
   return (
-    <img src='./src/components/visualizations/cld.png'></img>
+    <img src='src/components/visualizations/cld.png'></img>
   );
 };
 
