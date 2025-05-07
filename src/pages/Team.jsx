@@ -90,23 +90,7 @@ const Team = () => {
                 
                 
                 
-                <div className="flex justify-center space-x-4">
-                  <a 
-                    href="{member.linkedin}" 
-                    className="text-neutral-500 hover:text-primary-600 transition-colors"
-                    aria-label={`LinkedIn profile of ${member.name}`}
-                  >
-                    <FiLinkedin size={20} />
-                  </a>
-                  <a 
-                    href="{member.Email}" 
-                    className="text-neutral-500 hover:text-primary-600 transition-colors"
-                    aria-label={`Email ${member.name}`}
-                  >
-                    <FiMail size={20} />
-                  </a>
-                  
-                </div>
+              
               </motion.div>
             ))}
           </div>
@@ -145,42 +129,35 @@ const teamMembers = [
     name: "Ayush Sahu",
     studentId: "2401010120",
     role: "System Dynamics Modeler",
-    photo: "https://media-hosting.imagekit.io/4f18af7f7d7e4f30/1731358963902.jpg?Expires=1841239679&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yTB~Kqthab0ihNufzMbkLeozYTE3-C7u5KWPB2BgBty5aIBTQ8xO7gOlb5kko0pBe3yQO-kipJNJXraqmvbBVndvNAb8GrKzNFOl70mvisx-2l4bvEdymkf3ZzkV~vQQ-m1r4uxumpxVUQTYxaUt2ap~PbDNCvTm2P74YbQmZ6jJ0-gF~Woj5VkVWPVJzafKs1PyvHqydbMgbI8BZntmSLUSFB-lD~4Hm1dpTOnDJ2hIS~8dAt-rOEucHbA4YmqPhvnkGUL3T91S2rUzJP4JiIUzBKzLnl2yVOIgoqQE4AHpq8TuXyobnU44KDcKQjVutECVyyMM6VB4QTI3GG8NPg__",
-    linkedin: "https://www.linkedin.com/in/ayush-sahu-a44904323/",
-    Email: "mailto:ayush.sahu2024@nst.rishihood.edu.in"
+    photo: "https://media-hosting.imagekit.io/4f18af7f7d7e4f30/1731358963902.jpg?Expires=1841239679&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yTB~Kqthab0ihNufzMbkLeozYTE3-C7u5KWPB2BgBty5aIBTQ8xO7gOlb5kko0pBe3yQO-kipJNJXraqmvbBVndvNAb8GrKzNFOl70mvisx-2l4bvEdymkf3ZzkV~vQQ-m1r4uxumpxVUQTYxaUt2ap~PbDNCvTm2P74YbQmZ6jJ0-gF~Woj5VkVWPVJzafKs1PyvHqydbMgbI8BZntmSLUSFB-lD~4Hm1dpTOnDJ2hIS~8dAt-rOEucHbA4YmqPhvnkGUL3T91S2rUzJP4JiIUzBKzLnl2yVOIgoqQE4AHpq8TuXyobnU44KDcKQjVutECVyyMM6VB4QTI3GG8NPg__"
    
   },
   {
     name: "Shaurya Mittal",
     studentId: "2402110028",
     role: "Systems Analysis & Research Lead",
-    photo: "https://media-hosting.imagekit.io/eed59b3d49504489/WhatsApp Image 2025-05-07 at 20.48.39.jpeg?Expires=1841239318&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yk30PyZbGpAALnOBCA3mKx9Bhz~L9-mMyKGFXyBnPFgM7n4gu3EVcsV6xgykZgMyuw7IryLFAzN4GUPlPlfMDHjTOSomTPoZwvcIg7a6HwSJrefP71DjqkYEQz1RNp4RAhqKFT2iJcdfP6VIlrsY4irUMPOd49YrT1gYR0gguoqCrQ1YtRUEu04VERYwATLxHxV8elnb4H13SsT-lr7mLL8PkqarT1z4SsW4atMzYi4FBruA7HePL8i9WNIZluGhDEAE-L0tTB98nYoYkZW8sZtg~okdhp0APKTG0RtscftF6qbINYtHywbbTSsYqYa5nBKpw7ZN7yAlTcCuDUJmRA__",
-    linkedin: "https://www.linkedin.com/in/shaurya-mittal-292808267/",
-    Email: "mailto:shaurya.mittal2024@makers.rishihood.edu.in"
+    photo: "https://media-hosting.imagekit.io/eed59b3d49504489/WhatsApp Image 2025-05-07 at 20.48.39.jpeg?Expires=1841239318&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yk30PyZbGpAALnOBCA3mKx9Bhz~L9-mMyKGFXyBnPFgM7n4gu3EVcsV6xgykZgMyuw7IryLFAzN4GUPlPlfMDHjTOSomTPoZwvcIg7a6HwSJrefP71DjqkYEQz1RNp4RAhqKFT2iJcdfP6VIlrsY4irUMPOd49YrT1gYR0gguoqCrQ1YtRUEu04VERYwATLxHxV8elnb4H13SsT-lr7mLL8PkqarT1z4SsW4atMzYi4FBruA7HePL8i9WNIZluGhDEAE-L0tTB98nYoYkZW8sZtg~okdhp0APKTG0RtscftF6qbINYtHywbbTSsYqYa5nBKpw7ZN7yAlTcCuDUJmRA__"
+
   },
   {
     name: "Somil Thakur",
     studentId: "2402120004",
     role: "Data Visualization Specialist",
-    photo: "https://media-hosting.imagekit.io/297afb74ff9445c9/WhatsApp%20Image%202025-05-07%20at%2020.54.15.jpeg?Expires=1841239528&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zKz91qgc9hvLIuFPkkXIKbmtHY0nsPr-CubPC1tC7gHjGva8psmWQBeIFZlnQ03ZS8ZCevs~c9rc0AQvMZ7tmTZtoXvk0uv8clE-7kPGNl3BPT5WxmsAWwpFiEQ~mmQI70gifyBkSjjX5zl8MYpKsoTWTnrlWZP8LRGz-wKXtFxa230tcFmdiojssB7rLKm8SYmdKp8UznhXSebWTIoJbjS5hanVfO5GLdEI~GLOtBiWDeTytTws87W2CC38CprLLdvpEOnZ7VH2ZNRnccGMSAWvlkio6w7cb0qbdbh95T6z5ZUZoUM~zd-GG4keijFhbCbemTlxfCCravK2hjWM~g__",
-    linkedin: "www.linkedin.com/in/somil-thakur-682817323/",
-    Email:"mailto:somil.thakur2024@makers.rishihood.edu.in"
+    photo: "https://media-hosting.imagekit.io/297afb74ff9445c9/WhatsApp%20Image%202025-05-07%20at%2020.54.15.jpeg?Expires=1841239528&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zKz91qgc9hvLIuFPkkXIKbmtHY0nsPr-CubPC1tC7gHjGva8psmWQBeIFZlnQ03ZS8ZCevs~c9rc0AQvMZ7tmTZtoXvk0uv8clE-7kPGNl3BPT5WxmsAWwpFiEQ~mmQI70gifyBkSjjX5zl8MYpKsoTWTnrlWZP8LRGz-wKXtFxa230tcFmdiojssB7rLKm8SYmdKp8UznhXSebWTIoJbjS5hanVfO5GLdEI~GLOtBiWDeTytTws87W2CC38CprLLdvpEOnZ7VH2ZNRnccGMSAWvlkio6w7cb0qbdbh95T6z5ZUZoUM~zd-GG4keijFhbCbemTlxfCCravK2hjWM~g__"
+
   },
   {
     name: "Archit Jaiswal",
     studentId: "2402110005",
     role: "Healthcare Research Analyst",
-    photo: "https://media-hosting.imagekit.io/835cfd404ac54709/486582084_1177994490708190_5782411538485442520_n.jpg?Expires=1841239464&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wN1XHKtTDuc5guBFYgiUuWrRR~nNv7TOUa6Ji6d1psZsODRkEmfrASPq45dBnH2nnqgRmKvZzxKWeTKmia1tyGTTbUvwdesSHWNlTLlH-fuLkkSe2bfcCNR-Xd1J~pI82e7c~IGnN2kCE9nD8bVqu3iKR3TvUDEMr9tWY3X7fGECbqwgTX7pEwlpS1QsDKJS4eufpLHNKBzNjfZzt5oEJD7nDoOb7qf9BRiytUjhUqIQ3gkSq7do7s2NYsWW~VrSPJVxV7Qt5eMXkV6HfQK-VoVaYcbSfKnHYut6DvdyeIpaTvYjECKHi-Li-NxtKDhdjidQghF2RMZERrJRuaMM8A__",
-    linkedin: "https://www.linkedin.com/in/archit-jaiswal-06aa38322/",
-    Email: "mailto:somil.thakur2024@makers.rishihood.edu.in"
+    photo: "https://media-hosting.imagekit.io/835cfd404ac54709/486582084_1177994490708190_5782411538485442520_n.jpg?Expires=1841239464&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=wN1XHKtTDuc5guBFYgiUuWrRR~nNv7TOUa6Ji6d1psZsODRkEmfrASPq45dBnH2nnqgRmKvZzxKWeTKmia1tyGTTbUvwdesSHWNlTLlH-fuLkkSe2bfcCNR-Xd1J~pI82e7c~IGnN2kCE9nD8bVqu3iKR3TvUDEMr9tWY3X7fGECbqwgTX7pEwlpS1QsDKJS4eufpLHNKBzNjfZzt5oEJD7nDoOb7qf9BRiytUjhUqIQ3gkSq7do7s2NYsWW~VrSPJVxV7Qt5eMXkV6HfQK-VoVaYcbSfKnHYut6DvdyeIpaTvYjECKHi-Li-NxtKDhdjidQghF2RMZERrJRuaMM8A__"
+
   },
   {
     name: "Jiya Arora",
     studentId: "2402110013",
     role: "Urban Planning & Policy Researcher",
-    photo: "https://media-hosting.imagekit.io/384062cf86544e69/491422272_18278250844253108_5582358803567603563_n.jpg?Expires=1841241367&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yuJ32Ww6cvafYNSaiVvCacImN-F1w72JMJCXPOZL40WIzjXZe~fchigPE1MPjMCu~1d8ainSSCSnpWr1SCKUkSz5bkGDcfhuk51MdasEPtaNHZBClgSYD60OiKa7mUTMFxZOrtYm0RTfiwQxAJGkDk7imn8CCqP36FIatVKi2KtzjUVtTXBKHm4lnRpAD7ax1u3V94j7jBAeSOupuyfbCL6XJhsNiF9g-xrUj4-OKIc9x3ply0e36yevx-IPgHn2WQ39WwkaOFTPKb0Y3~Uz3g9zH5ccXBVANx8BeeVloiN3pHnCNS3ivx9i1jtPBFKOnbk14czEJpEXNo3xaAnZ8Q__",
-    linkedin: "https://www.linkedin.com/in/jiya-arora-3200b9318/",
-    Email: "mailto:jiya.arora2024@makers.rishihood.edu.in"
+    photo: "https://media-hosting.imagekit.io/384062cf86544e69/491422272_18278250844253108_5582358803567603563_n.jpg?Expires=1841241367&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yuJ32Ww6cvafYNSaiVvCacImN-F1w72JMJCXPOZL40WIzjXZe~fchigPE1MPjMCu~1d8ainSSCSnpWr1SCKUkSz5bkGDcfhuk51MdasEPtaNHZBClgSYD60OiKa7mUTMFxZOrtYm0RTfiwQxAJGkDk7imn8CCqP36FIatVKi2KtzjUVtTXBKHm4lnRpAD7ax1u3V94j7jBAeSOupuyfbCL6XJhsNiF9g-xrUj4-OKIc9x3ply0e36yevx-IPgHn2WQ39WwkaOFTPKb0Y3~Uz3g9zH5ccXBVANx8BeeVloiN3pHnCNS3ivx9i1jtPBFKOnbk14czEJpEXNo3xaAnZ8Q__"
   },
   
 ];
